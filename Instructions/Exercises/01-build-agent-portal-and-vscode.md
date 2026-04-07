@@ -366,6 +366,13 @@ Now let's create a client application that interacts with your agent programmati
 
 1. Open a terminal in VS Code (**Terminal > New Terminal**).
 
+1. Create a new virtual environment and activate it:
+
+    ```bash
+    python -m venv labenv
+    ./labenv/Scripts/activate
+    ```
+
 1. Install the required packages and login:
 
     ```bash
